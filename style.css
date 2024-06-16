@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.showcase {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.video-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.video-content h1
+{
+    color: white;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.video-content h1::first-letter
+{
+    color: red;
+}
+.video-content a
+{
+    text-decoration: none;
+    background-color:navy;
+    border: 2px solid white;
+    line-height: 3;
+    padding: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.video-content a:hover
+{
+  opacity: 0.6;  
+  color: rgb(174, 139, 211);
+}
+.mid-section,.mid-section2
+{
+    margin-left: 10px;
+}
+.mid-section h1::first-letter,.mid-section2 h1::first-letter{
+color: blue;
+font-size: 90px;
+font-family: Fantasy;
+}
+.mid-section h1,.mid-section2 h1{
+    font-size: 50px;
+
+}
+#Like
+{
+    text-align: center;
+    color: brown;
+}
+#para-1,#para-2
+{
+    text-transform: capitalize;
+}
+#para-1::first-letter,#para-2::first-letter
+{
+    font-size: 80px;
+    color: brown;
+}
+.colored {
+    color: rgb(97, 5, 93);
+    font-size: 60px;
+    font-family: Fantasy;
+}
+
